@@ -8,6 +8,8 @@ import androidx.compose.material.Surface
 import androidx.compose.runtime.Composable
 import androidx.compose.ui.platform.setContent
 import androidx.ui.tooling.preview.Preview
+import com.everythingjetpackpro.zomatocomposew.ui.RestaurantCardBig
+import com.everythingjetpackpro.zomatocomposew.ui.RestaurantCardSmall
 import com.everythingjetpackpro.zomatocomposew.ui.ZomatoComposeTheme
 
 class MainActivity : AppCompatActivity() {
@@ -16,7 +18,9 @@ class MainActivity : AppCompatActivity() {
         setContent {
             ZomatoComposeTheme {
                 Surface(color = MaterialTheme.colors.background) {
-                    Greeting("Android")
+                    RestaurantCardBig("Android"){
+
+                    }
                 }
             }
         }

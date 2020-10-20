@@ -73,9 +73,9 @@ fun RestaurantCardSmall(
     }
 }
 
-@Preview(showBackground = true)
-@Composable
-fun DefaultPreview() {
-    RestaurantCardSmall("Android") {
-    }
-}
+//@Preview(showBackground = true)
+//@Composable
+//fun DefaultPreview() {
+//    RestaurantCardSmall("Android") {
+//    }
+//}
